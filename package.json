@@ -1,0 +1,11 @@
+{
+  "name": "postr",
+  "version": "1.0.0",
+  "description": "a Ar viewer for events ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "H",
+  "license": "ISC"
+}
