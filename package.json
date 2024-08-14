@@ -10,13 +10,17 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "sass": "^1.77.8",
+    "swiper": "^11.1.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-bulma": "sass --load-path=node_modules my-bulma-project.scss my-bulma-project.css",
+    "start-bulma": "npm run build-bulma -- --watch"
   },
   "eslintConfig": {
     "extends": [
